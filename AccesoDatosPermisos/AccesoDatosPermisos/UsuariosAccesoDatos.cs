@@ -24,7 +24,7 @@ namespace AccesoDatosPermisos
                 Console.WriteLine("Fallo la conexion" + ex.Message);
             }
         }
-         // METODOS PARA HERRAMIENTAS
+         // HERRAMIENTAS
 
         public void GuardarHerramientas(Herramientas herramienta)
         {
@@ -101,7 +101,7 @@ namespace AccesoDatosPermisos
             return ListaHerramientas;
         }
 
-        // METODOS PARA USUARIOS
+        // USUARIOS
 
         public void GuardarUsuarios(Usuarios usuario)
         {
