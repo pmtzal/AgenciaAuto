@@ -41,98 +41,102 @@ namespace PresentacionesPermisos
             // 
             // BtnCancelar
             // 
-            this.BtnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCancelar.Location = new System.Drawing.Point(395, 116);
+            this.BtnCancelar.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.BtnCancelar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCancelar.Location = new System.Drawing.Point(367, 195);
             this.BtnCancelar.Margin = new System.Windows.Forms.Padding(11);
             this.BtnCancelar.Name = "BtnCancelar";
-            this.BtnCancelar.Size = new System.Drawing.Size(103, 34);
+            this.BtnCancelar.Size = new System.Drawing.Size(126, 34);
             this.BtnCancelar.TabIndex = 19;
             this.BtnCancelar.Text = "Cancelar";
-            this.BtnCancelar.UseVisualStyleBackColor = true;
+            this.BtnCancelar.UseVisualStyleBackColor = false;
             this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(20, 116);
+            this.btnRegistrar.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.btnRegistrar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(222, 116);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(11);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(103, 34);
+            this.btnRegistrar.Size = new System.Drawing.Size(103, 57);
             this.btnRegistrar.TabIndex = 18;
-            this.btnRegistrar.Text = "iniciar sesion";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Text = "Iniciar sesión";
+            this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(20, 72);
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(20, 74);
             this.label6.Margin = new System.Windows.Forms.Padding(11, 0, 11, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 16);
+            this.label6.Size = new System.Drawing.Size(130, 23);
             this.label6.TabIndex = 17;
-            this.label6.Text = "contraseña";
+            this.label6.Text = "Contraseña:";
             // 
             // txtContraseña
             // 
             this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(117, 72);
+            this.txtContraseña.Location = new System.Drawing.Point(161, 71);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(11);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '*';
-            this.txtContraseña.Size = new System.Drawing.Size(253, 22);
+            this.txtContraseña.Size = new System.Drawing.Size(253, 26);
             this.txtContraseña.TabIndex = 16;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(20, 26);
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(71, 23);
             this.label5.Margin = new System.Windows.Forms.Padding(11, 0, 11, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 16);
+            this.label5.Size = new System.Drawing.Size(79, 23);
             this.label5.TabIndex = 15;
             this.label5.Text = "Usuario";
             // 
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(117, 23);
+            this.txtUsuario.Location = new System.Drawing.Point(161, 20);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(11);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(253, 22);
+            this.txtUsuario.Size = new System.Drawing.Size(253, 26);
             this.txtUsuario.TabIndex = 14;
             // 
             // btnInvitado
             // 
-            this.btnInvitado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInvitado.Location = new System.Drawing.Point(270, 116);
+            this.btnInvitado.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.btnInvitado.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInvitado.Location = new System.Drawing.Point(222, 195);
             this.btnInvitado.Margin = new System.Windows.Forms.Padding(11);
             this.btnInvitado.Name = "btnInvitado";
             this.btnInvitado.Size = new System.Drawing.Size(103, 34);
             this.btnInvitado.TabIndex = 20;
             this.btnInvitado.Text = "Invitado";
-            this.btnInvitado.UseVisualStyleBackColor = true;
+            this.btnInvitado.UseVisualStyleBackColor = false;
             this.btnInvitado.Click += new System.EventHandler(this.btnInvitado_Click);
             // 
             // btnRegistra
             // 
-            this.btnRegistra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistra.Location = new System.Drawing.Point(145, 116);
+            this.btnRegistra.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.btnRegistra.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistra.Location = new System.Drawing.Point(47, 195);
             this.btnRegistra.Margin = new System.Windows.Forms.Padding(11);
             this.btnRegistra.Name = "btnRegistra";
-            this.btnRegistra.Size = new System.Drawing.Size(103, 34);
+            this.btnRegistra.Size = new System.Drawing.Size(131, 34);
             this.btnRegistra.TabIndex = 21;
-            this.btnRegistra.Text = "Registrate";
-            this.btnRegistra.UseVisualStyleBackColor = true;
+            this.btnRegistra.Text = "Regístrate";
+            this.btnRegistra.UseVisualStyleBackColor = false;
             this.btnRegistra.Click += new System.EventHandler(this.btnRegistra_Click);
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 179);
+            this.ClientSize = new System.Drawing.Size(550, 261);
             this.Controls.Add(this.btnRegistra);
             this.Controls.Add(this.btnInvitado);
             this.Controls.Add(this.BtnCancelar);

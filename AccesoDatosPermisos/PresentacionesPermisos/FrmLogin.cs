@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using EntidadesPermisos;
 using ManejadoresPermisos;
@@ -35,7 +28,7 @@ namespace PresentacionesPermisos
                     formmenu.Show();
                     this.Hide();
 
-                    MessageBox.Show("bienvenido administrador");
+                    MessageBox.Show("Bienvenido administrador");
                     formmenu.lblTipoCuenta.Text = "Administrador";
                 }
 
@@ -48,11 +41,9 @@ namespace PresentacionesPermisos
                     formmenu.lblUsuario.Visible = false;
                    
 
-                    MessageBox.Show("Bienvenido " + txtUsuario.Text + ", tienes permisos restringidos");
+                    MessageBox.Show("Bienvenido " + txtUsuario.Text + ", Tienes permisos restringidos");
                     formmenu.lblTipoCuenta.Text = "Usuario";
                 }
-
-
             }
             else
             {
@@ -77,8 +68,6 @@ namespace PresentacionesPermisos
             FrmRegistro fr = new FrmRegistro();
             fr.banderaGuardar = "guardar";
             fr.ShowDialog();
-            
-            
         }
 
         private void BtnCancelar_Click(object sender, EventArgs e)
